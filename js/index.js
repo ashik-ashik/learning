@@ -1,0 +1,3 @@
+
+function freeCourse(){let e=document.querySelector("#onlineCourse");"freeCourse"==String(prompt("Provide The Key to Visit This Site"))?(e.setAttribute("href","https://freecoursesite.com"),e.setAttribute("target","_blank")):e.setAttribute("href","pages/404.html")}$(document).ready(function(){$(".venobox").venobox(),AOS.init({duration:900});const e=document.querySelector("#currentYear");
+$('.hero-content, .jsbtitle, .section404').ripples({dropRadius: 12,perturbance: 1,});setInterval(()=>{let t=(new Date).getFullYear();e.innerHTML=t})});
