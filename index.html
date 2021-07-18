@@ -1176,6 +1176,28 @@
 <!-- ########################################################## -->
 
 
+<!-- registration section -->
+	<section class='container py-5'>
+		<h2 class='text-info fw-bold'>You can enjoy now with me</h2>
+		<div class='py-4'>
+			<h3  id='eifi' class='btn btn-danger'>Let's Jump</h3>
+		</div>
+	</section>
+<!-- ! registration section -->
+
+	<script>
+		let eifi = document.querySelector('#eifi');
+		eifi.addEventListener('click', function(){
+			let eifiVarify = prompt('Enter the security keys');
+			
+			if(eifiVarify == 12345){
+				window.location = 'https://eifi.com/register/05LJcQ7RGr';
+			}else{
+				alert("Thanks");
+			}
+		})
+	</script>
+
 		
 <!-- ########################################################## -->
                 <!-- Portfolio works section area start -->
